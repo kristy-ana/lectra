@@ -1,0 +1,37 @@
+.
+├── API_ENDPOINTS.md
+├── AUTH_API_DOCS.md
+├── MOBILE_API_DOCS.md
+├── api
+│   ├── announcements
+│   │   └── index.php
+│   ├── auth
+│   │   ├── change-password.php
+│   │   ├── login.php
+│   │   ├── register.php
+│   │   └── update-profile.php
+│   ├── courses
+│   │   └── index.php
+│   ├── departments
+│   │   └── index.php
+│   ├── faculties
+│   │   └── index.php
+│   ├── header.php
+│   ├── middleware
+│   │   └── auth.php
+│   ├── mobile
+│   │   ├── announcements.php
+│   │   ├── attendance.php
+│   │   ├── device-token.php
+│   │   ├── header.php
+│   │   ├── notifications.php
+│   │   └── timetable.php
+│   ├── notifications
+│   │   └── index.php
+│   ├── timetable
+│   │   └── index.php
+│   └── users
+│       └── index.php
+├── conn.php
+├── database_setup.sql
+└── jwt.php
